@@ -23,11 +23,15 @@
       <groupId>com.ksa</groupId>
       <artifactId>ksa-security-web</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+			<scope>import</scope>
     </dependency>
     <dependency>
       <groupId>com.ksa</groupId>
       <artifactId>ksa-bd-service</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+			<scope>import</scope>
     </dependency>
   </dependencies>
 </project>
