@@ -24,14 +24,14 @@
       <artifactId>ksa-finance-service</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
-			<scope>import</scope>
+      <scope>import</scope>
     </dependency>
     <dependency>
       <groupId>com.ksa</groupId>
       <artifactId>ksa-logistics-web</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
-			<scope>import</scope>
+      <scope>import</scope>
     </dependency>
   </dependencies>
 </project>
