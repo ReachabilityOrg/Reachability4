@@ -31,7 +31,7 @@
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
     </dependency>
-    
+
     <!-- 测试 Excel 模板 -->
     <dependency>
       <groupId>org.freemarker</groupId>
@@ -40,4 +40,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <modules>
+    <module>ksa-debug</module>
+  </modules>
+  
 </project>
