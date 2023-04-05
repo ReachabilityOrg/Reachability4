@@ -36,7 +36,7 @@
     <dependency>
       <groupId>com.ksa</groupId>
       <artifactId>ksa-debug</artifactId>
-      <version>3.9.2</version>
+      <version>${project.version}</version>   
     </dependency>
 
     <!-- 测试 Excel 模板 -->
