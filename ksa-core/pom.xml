@@ -32,6 +32,15 @@
       <artifactId>commons-lang</artifactId>
     </dependency>
 
+    <!-- // TODO 调试时使用，正式环境去除 -->
+    <dependency>
+      <groupId>com.ksa</groupId>
+      <artifactId>ksa-debug</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
+
     <!-- 测试 Excel 模板 -->
     <dependency>
       <groupId>org.freemarker</groupId>
@@ -40,9 +49,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-  <modules>
-    <module>ksa-debug</module>
-  </modules>
-  
 </project>
