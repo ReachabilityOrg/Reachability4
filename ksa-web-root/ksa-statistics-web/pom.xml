@@ -23,11 +23,15 @@
       <groupId>com.ksa</groupId>
       <artifactId>ksa-finance-web</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+			<scope>import</scope>
     </dependency>
     <dependency>
       <groupId>com.ksa</groupId>
       <artifactId>ksa-logistics-web</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+			<scope>import</scope>
     </dependency>
   </dependencies>
 </project>
