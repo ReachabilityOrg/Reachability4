@@ -23,6 +23,8 @@
       <groupId>com.ksa</groupId>
       <artifactId>ksa-bd-dao</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+      <scope>import</scope>
     </dependency>
   </dependencies>
 </project>
