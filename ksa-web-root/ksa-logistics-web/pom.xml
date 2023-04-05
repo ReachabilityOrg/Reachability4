@@ -23,16 +23,22 @@
       <groupId>com.ksa</groupId>
       <artifactId>ksa-logistics-service</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+			<scope>import</scope>
     </dependency>
     <dependency>
       <groupId>com.ksa</groupId>
       <artifactId>ksa-security-web</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+			<scope>import</scope>
     </dependency>
     <dependency>
       <groupId>com.ksa</groupId>
       <artifactId>ksa-bd-web</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+			<scope>import</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.poi</groupId>
