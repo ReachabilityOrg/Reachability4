@@ -30,13 +30,16 @@
       <groupId>com.ksa</groupId>
       <artifactId>ksa-dao-context</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+      <scope>import</scope>
     </dependency>
 
     <dependency>
       <groupId>com.ksa</groupId>
       <artifactId>ksa-debug</artifactId>
       <version>${project.version}</version>
-      <scope>test</scope>
+      <type>pom</type>
+      <scope>import</scope>
     </dependency>
   </dependencies>
 
