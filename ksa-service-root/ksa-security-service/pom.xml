@@ -19,6 +19,8 @@
       <groupId>com.ksa</groupId>
       <artifactId>ksa-security-dao</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+      <scope>import</scope>
     </dependency>
     <!-- shiro -->
     <dependency>
