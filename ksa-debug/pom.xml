@@ -26,7 +26,6 @@
 		<dependency>
 		    <groupId>com.alibaba</groupId>
 		    <artifactId>druid</artifactId>
-		    <version>1.2.16</version>
 		</dependency>
 		<!-- 默认调试所用的数据库环境 -->
 		<dependency>
