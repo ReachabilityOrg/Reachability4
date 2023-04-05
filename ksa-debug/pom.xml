@@ -23,10 +23,11 @@
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
 		</dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-        </dependency>
+		<dependency>
+		    <groupId>com.alibaba</groupId>
+		    <artifactId>druid</artifactId>
+		    <version>1.2.16</version>
+		</dependency>
 		<!-- 默认调试所用的数据库环境 -->
 		<dependency>
 			<groupId>com.h2database</groupId>
@@ -44,7 +45,6 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>6.0.7</version>
 		</dependency>
 		
 		<!-- freemarker -->
